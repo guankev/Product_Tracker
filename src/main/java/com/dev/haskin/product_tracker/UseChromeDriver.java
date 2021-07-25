@@ -9,6 +9,7 @@ public class UseChromeDriver implements WebDriver {
         System.setProperty("webdriver.chrome.driver","C:/Users/guank/Documents/Coding Project/drivers/chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
+
         return driver;
     }
 }
