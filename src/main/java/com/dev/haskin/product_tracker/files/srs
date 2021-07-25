@@ -1,0 +1,32 @@
+Description:
+Java, Selenium, Scrape PS5
+
+Main
++DriverObject
++View
+
+View
++Product
+-askForProduct
+-outputResults
+
+Driver (interface)
+-setConfiguration
+-initialize
+
+ChromeDriver (class)
++link
+
+WebParser (Interface)
+-search
+-getAllElements
+-findCorrectElement
+-getNextPage
+-returnToUser
+
+BestBuyParser (Class)
+
+Product (class)
++name
++price
++tax
