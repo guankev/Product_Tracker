@@ -10,5 +10,6 @@ public class App {
     public static void main(String[] args) {
         RemoteWebDriver chromeDriver = new UseChromeDriver().initialize();
         chromeDriver.close();
+        UserView view = new UserView();
     }
 }
